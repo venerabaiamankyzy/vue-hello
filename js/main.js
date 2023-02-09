@@ -3,9 +3,10 @@
 const app = Vue.createApp({
   data() {
     return {
-      message: "HELLO!",
+      message: "Hello, My Friend!",
+
+      image: "./img/_.jpeg",
     };
   },
 });
-
 app.mount("#root");
